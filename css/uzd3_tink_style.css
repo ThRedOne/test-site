@@ -99,6 +99,12 @@ footer {
 /* reaktyvus stiliai */
 
 @media only screen and (max-width: 767px) {
+	body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /*pataisyti side scrolling issue */
+	}
+	
 	#saitas1 {
         height: auto;
     }
